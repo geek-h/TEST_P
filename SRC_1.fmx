@@ -1,0 +1,204 @@
+object Form1: TForm1
+  Left = 0
+  Top = 0
+  Caption = 'faali-facture'
+  ClientHeight = 480
+  ClientWidth = 640
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  DesignerMasterStyle = 3
+  object Button1: TButton
+    Align = Bottom
+    StyledSettings = [Family, Size, Style]
+    Position.Y = 440.000000000000000000
+    Size.Width = 640.000000000000000000
+    Size.Height = 40.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 0
+    Text = 'VALIDER'
+    TextSettings.FontColor = claWhite
+    TintColor = claChartreuse
+  end
+  object PresentedScrollBox1: TPresentedScrollBox
+    Align = Contents
+    Size.Width = 640.000000000000000000
+    Size.Height = 480.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 2
+    Viewport.Width = 640.000000000000000000
+    Viewport.Height = 480.000000000000000000
+    object ColorBox1: TColorBox
+      Align = Contents
+      Color = claGreenyellow
+      Size.Width = 640.000000000000000000
+      Size.Height = 480.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 8
+    end
+    object Panel1: TPanel
+      Align = Center
+      Size.Width = 284.000000000000000000
+      Size.Height = 180.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 4
+      object ColorBox3: TColorBox
+        Align = Client
+        Color = claLightskyblue
+        Size.Width = 284.000000000000000000
+        Size.Height = 180.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 3
+        object Button2: TButton
+          Align = Bottom
+          Position.Y = 136.000000000000000000
+          Size.Width = 284.000000000000000000
+          Size.Height = 44.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 0
+          Text = 'VALIDER'
+        end
+        object Edit1: TEdit
+          Touch.InteractiveGestures = [LongTap, DoubleTap]
+          TabOrder = 1
+          Position.X = 9.000000000000000000
+          Position.Y = 94.000000000000000000
+          Size.Width = 152.000000000000000000
+          Size.Height = 32.000000000000000000
+          Size.PlatformDefault = False
+        end
+        object Edit2: TEdit
+          Touch.InteractiveGestures = [LongTap, DoubleTap]
+          TabOrder = 2
+          Position.X = 9.000000000000000000
+          Position.Y = 30.000000000000000000
+          Size.Width = 264.000000000000000000
+          Size.Height = 32.000000000000000000
+          Size.PlatformDefault = False
+        end
+        object Label2: TLabel
+          StyledSettings = [Family, Size, Style]
+          Position.X = 8.000000000000000000
+          Position.Y = 7.000000000000000000
+          Size.Width = 225.000000000000000000
+          Size.Height = 23.000000000000000000
+          Size.PlatformDefault = False
+          TextSettings.FontColor = claWhite
+          Text = 'NUMERO DU COMPTEUR'
+          TabOrder = 3
+        end
+        object Label3: TLabel
+          StyledSettings = [Family, Size, Style]
+          Position.X = 8.000000000000000000
+          Position.Y = 71.000000000000000000
+          Size.Width = 169.000000000000000000
+          Size.Height = 23.000000000000000000
+          Size.PlatformDefault = False
+          TextSettings.FontColor = claWhite
+          Text = 'MONTANT'
+          TabOrder = 4
+        end
+      end
+      object GlowEffect1: TGlowEffect
+        Softness = 0.400000005960464500
+        GlowColor = claDimgray
+        Opacity = 0.899999976158142100
+      end
+    end
+    object Panel2: TPanel
+      Position.X = 8.000000000000000000
+      Position.Y = 344.000000000000000000
+      Size.Width = 9.000000000000000000
+      Size.Height = 297.000000000000000000
+      Size.PlatformDefault = False
+      Visible = False
+      TabOrder = 5
+      object ColorBox2: TColorBox
+        Align = Client
+        Color = claGreenyellow
+        Size.Width = 9.000000000000000000
+        Size.Height = 297.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 0
+      end
+    end
+    object Label4: TLabel
+      Position.X = 64.000000000000000000
+      Position.Y = 192.000000000000000000
+      Text = 'Label4'
+      Visible = False
+      TabOrder = 9
+    end
+    object Label7: TLabel
+      Position.X = 64.000000000000000000
+      Position.Y = 120.000000000000000000
+      Visible = False
+      TabOrder = 10
+    end
+  end
+  object Edit3: TEdit
+    Touch.InteractiveGestures = [LongTap, DoubleTap]
+    TabOrder = 4
+    Position.X = 264.000000000000000000
+    Position.Y = 120.000000000000000000
+  end
+  object Timer1: TTimer
+    Left = 112
+    Top = 168
+  end
+  object ToolBar1: TToolBar
+    Size.Width = 640.000000000000000000
+    Size.Height = 48.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 1
+    TintColor = claOrangered
+    object Label1: TLabel
+      Align = Center
+      StyledSettings = []
+      Size.Width = 158.000000000000000000
+      Size.Height = 23.000000000000000000
+      Size.PlatformDefault = False
+      TextSettings.Font.Family = 'Comic Sans MS'
+      TextSettings.Font.Size = 24.000000000000000000
+      TextSettings.Font.StyleExt = {00070000000000000004000000}
+      TextSettings.FontColor = claYellow
+      Text = 'faali-facture'
+      TabOrder = 0
+    end
+  end
+  object Panel3: TPanel
+    Align = Top
+    Margins.Top = 8.000000000000000000
+    Position.Y = 56.000000000000000000
+    Size.Width = 640.000000000000000000
+    Size.Height = 25.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 9
+    object Label5: TLabel
+      Align = Left
+      StyledSettings = [Family, Style, FontColor]
+      Size.Width = 225.000000000000000000
+      Size.Height = 25.000000000000000000
+      Size.PlatformDefault = False
+      TextSettings.Font.Size = 11.000000000000000000
+      Text = 'Bienvenue !'
+      TabOrder = 0
+    end
+    object Label6: TLabel
+      Align = Right
+      StyledSettings = [Family, Style, FontColor]
+      Position.X = 456.000000000000000000
+      Size.Width = 184.000000000000000000
+      Size.Height = 25.000000000000000000
+      Size.PlatformDefault = False
+      TextSettings.Font.Size = 11.000000000000000000
+      TextSettings.HorzAlign = Trailing
+      TabOrder = 1
+    end
+  end
+  object Timer2: TTimer
+    OnTimer = Timer2Timer
+    Left = 32
+    Top = 208
+  end
+end

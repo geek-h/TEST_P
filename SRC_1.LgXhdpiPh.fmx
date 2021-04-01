@@ -1,0 +1,79 @@
+inherited Form1_LgXhdpiPh: TForm1_LgXhdpiPh
+  ClientHeight = 695
+  ClientWidth = 450
+  OnShow = FormShow
+  DesignerMasterStyle = 3
+  inherited Button1: TButton
+    Position.Y = 664.000000000000000000
+    Size.Width = 450.000000000000000000
+    Size.Height = 31.000000000000000000
+    Text = 'INFOS'
+    TintColor = claSpringgreen
+  end
+  inherited PresentedScrollBox1: TPresentedScrollBox
+    ScrollDirections = Vertical
+    Size.Width = 450.000000000000000000
+    Size.Height = 695.000000000000000000
+    Viewport.Width = 450.000000000000000000
+    Viewport.Height = 695.000000000000000000
+    inherited ColorBox1: TColorBox
+      Size.Width = 450.000000000000000000
+      Size.Height = 695.000000000000000000
+    end
+    inherited Panel1: TPanel
+      Size.Width = 274.000000000000000000
+      Size.Height = 217.000000000000000000
+      inherited ColorBox3: TColorBox
+        Color = claOrangered
+        Size.Width = 274.000000000000000000
+        Size.Height = 217.000000000000000000
+        inherited Button2: TButton
+          Position.Y = 173.000000000000000000
+          Size.Width = 274.000000000000000000
+          TintColor = claWhitesmoke
+          OnClick = Button2Click
+        end
+        inherited Edit1: TEdit
+          KeyboardType = NumberPad
+          ReadOnly = True
+          TextSettings.FontColor = claWhite
+          Position.Y = 30.000000000000000000
+          Size.Width = 232.000000000000000000
+          StyledSettings = [Family, Size, Style]
+        end
+        inherited Edit2: TEdit
+          KeyboardType = NumberPad
+          TextSettings.FontColor = claWhite
+          Position.Y = 94.000000000000000000
+          Size.Width = 224.000000000000000000
+          StyledSettings = [Family, Size, Style]
+        end
+      end
+    end
+    inherited Panel2: TPanel
+      Position.Y = 592.000000000000000000
+      inherited ColorBox2: TColorBox
+        Color = claWhitesmoke
+      end
+    end
+  end
+  inherited Edit3: TEdit
+    Visible = False
+    OnChange = Edit3Change
+  end
+  inherited Timer1: TTimer
+    OnTimer = Timer1Timer
+  end
+  inherited ToolBar1: TToolBar
+    Size.Width = 450.000000000000000000
+    inherited Label1: TLabel
+      TextSettings.Font.StyleExt = {00070000000000000004000000}
+    end
+  end
+  inherited Panel3: TPanel
+    Size.Width = 450.000000000000000000
+    inherited Label6: TLabel
+      Position.X = 266.000000000000000000
+    end
+  end
+end
